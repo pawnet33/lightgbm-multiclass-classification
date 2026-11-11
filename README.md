@@ -98,12 +98,3 @@ LightGBM was also compared with other machine learning algorithms:
 - AdaBoost
 
 LightGBM achieved the best overall results among the tested algorithms while also requiring less training time.
-
-## Key Learning Outcomes
-
-- Practical application of gradient boosting for multiclass classification.
-- Model configuration and hyperparameter tuning.
-- Stratified cross-validation and early stopping.
-- Evaluation using multiple classification metrics.
-- ROC and AUC analysis for multiclass classification.
-- Learning curve analysis and model comparison.
