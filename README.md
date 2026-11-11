@@ -53,7 +53,7 @@ Selected hyperparameters:
 
 ### 3. Cross-Validation & Hyperparameter Tuning
 
-Used **5-fold stratified cross-validation** on the training set to evaluate model performance and determine the optimal number of trees.
+Used **5-fold cross-validation** on the training set to evaluate model performance and determine the optimal number of trees.
 
 - Maximum number of iterations: 2,000
 - Early stopping: 10 rounds without improvement
