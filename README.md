@@ -60,6 +60,12 @@ Used **5-fold stratified cross-validation** on the training set to evaluate mode
 
 The final model was trained for **1,110 iterations**.
 
+## Learning Curve
+
+The learning curve illustrates the model's validation multi-class log loss across boosting iterations during 5-fold cross-validation. It shows how the model's performance evolved during training and helps assess convergence.
+
+![Learning Curve](krzywa_uczenia.png)
+
 ### 4. Model Evaluation
 
 Evaluated model performance using the following metrics:
@@ -72,8 +78,6 @@ Evaluated model performance using the following metrics:
 A learning curve based on multi-class log loss was also generated to examine model convergence and potential overfitting.
 
 ## Results
-
-<escape>**Test Accuracy: 96.07%**</escape>
 
 | Metric | Training Set | Test Set |
 |---|---:|---:|
