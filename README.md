@@ -82,8 +82,8 @@ The validation loss decreases rapidly during the initial iterations and graduall
 
 | Metric | Training Set | Test Set |
 |---|---:|---:|
-| Accuracy | 100% | 96.07% |
-| F1-score | – | 97.64% |
+| Accuracy | 1 | 0.9607 |
+| F1-score | – | 0.9764 |
 | MCC | – | 0.9592 |
 | Macro AUC | – | 0.9995 |
 
