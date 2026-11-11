@@ -18,15 +18,16 @@ The objective was to build a high-performing model capable of classifying observ
 
 ## Dataset
 
-- 6,238 observations
-- 617 input features
-- 26 target classes
+- **6,238 observations**
+- **617 input features**
+- **26 target classes**
 
 The dataset was provided as part of a university assignment and is not included in this repository.
 
 ## Methodology
 
 ### 1. Data Preparation
+
 - Loaded and prepared the dataset.
 - Removed an unnecessary index column.
 - Split the data into training (80%) and test (20%) sets.
@@ -60,22 +61,22 @@ Used **5-fold stratified cross-validation** on the training set to evaluate mode
 
 The final model was trained for **1,110 iterations**.
 
-## Learning Curve
-
-The learning curve illustrates the model's validation multi-class log loss across boosting iterations during 5-fold cross-validation. It shows how the model's performance evolved during training and helps assess convergence.
-
-![Learning Curve](krzywa_uczenia.png)
-
 ### 4. Model Evaluation
 
-Evaluated model performance using the following metrics:
+Model performance was evaluated using the following metrics:
 
 - Accuracy
 - F1-score (F-beta, β = 1)
 - Matthews Correlation Coefficient (MCC)
 - Macro-averaged Area Under the ROC Curve (AUC)
 
-A learning curve based on multi-class log loss was also generated to examine model convergence and potential overfitting.
+#### Learning Curve
+
+The learning curve shows the validation multi-class log loss across boosting iterations during 5-fold cross-validation.
+
+The validation loss decreases rapidly during the initial iterations and gradually stabilizes as training progresses. No increase in validation loss is observed, suggesting no clear signs of overfitting based on this metric.
+
+![Learning Curve](images/learning-curve.png)
 
 ## Results
 
