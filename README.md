@@ -76,7 +76,7 @@ The learning curve shows the validation multi-class log loss across boosting ite
 
 The validation loss decreases rapidly during the initial iterations and gradually stabilizes as training progresses. No increase in validation loss is observed, suggesting no clear signs of overfitting based on this metric.
 
-![Learning Curve](images/learning-curve.png)
+![Learning Curve](krzywa_uczenia.png)
 
 ## Results
 
